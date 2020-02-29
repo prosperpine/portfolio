@@ -190,7 +190,7 @@ p {
   margin-top: 38px;
 }
 
-.project-img {
+.weather-project-img {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("weatherapp.png");
   padding: 3rem;
   background-position: center;
@@ -219,6 +219,15 @@ p {
 
 .tags p {
   font-size: 10px;
+}
+
+.murdermystery-project-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("murdermystery.png");
+  padding: 3rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 /* p>span {
