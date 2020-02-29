@@ -242,6 +242,25 @@ mark {
   padding: 20px 36px;
 }
 
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  font-family: 'Roboto', sans-serif;
+}
+
+li>span {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: blue;
+}
+
 .for-more-section {
   padding: 20px 36px;
   margin-top: 48px;
