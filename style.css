@@ -213,6 +213,14 @@ a {
 
 .project-card-text {
   text-align: left;
+  font-family: 'Robot', sans-serif;
+  color: black;
+  margin-block-end: 2px;
+}
+
+.project-card-text>span {
+  font-weight: bold;
+  color: blue;
 }
 
 .tags {
@@ -245,6 +253,10 @@ mark {
   margin-right: 10px;
 }
 
+.other-projects-section {
+  padding: 20px 36px;
+}
+
 .my-thoughts-section {
   padding: 20px 36px;
   margin-top: 48px;
@@ -266,6 +278,7 @@ ul {
 
 li {
   font-family: 'Roboto', sans-serif;
+  font-size: 17px;
 }
 
 li>span {
@@ -276,9 +289,10 @@ li>span {
 
 .for-more-section {
   padding: 20px 36px;
-  margin-top: 48px;
+
   background-color: white;
 }
 
-/*font-family: 'Roboto', ;
-font-family: 'Montserrat', ;*/
+.bigicon {
+  color: blue;
+}
