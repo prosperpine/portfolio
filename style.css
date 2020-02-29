@@ -190,6 +190,10 @@ p {
   margin-top: 38px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .weather-project-img {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("weatherapp.png");
   padding: 3rem;
