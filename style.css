@@ -241,11 +241,6 @@ a {
   position: relative;
 }
 
-/* p>span {
-  background-color: gold;
-  padding: 5px 10px;
-} */
-
 mark {
   padding: 5px 10px;
   background-color: aqua;
@@ -268,10 +263,6 @@ mark {
   flex-direction: column;
   margin-top: 38px;
 }
-
-
-
-
 
 .reflections-image {
   width: 100%;
@@ -327,7 +318,7 @@ li>span {
 }
 
 .for-more-section {
-  padding: 20px 36px;
+  padding: 28px 36px;
   background-color: rgb(201, 123, 123);
   display: flex;
   flex-direction: column;
@@ -342,6 +333,7 @@ li>span {
 .big-icons {
   display: flex;
   justify-content: space-evenly;
+  padding-top: 26px;
 }
 
 .big-icon {
@@ -356,4 +348,26 @@ li>span {
   border-radius: 50%;
   border: solid 2px white;
   padding: 5px;
+}
+
+.contact-me-section {
+  padding: 28px 36px;
+}
+
+.contact-card {
+  text-align: center;
+  margin-bottom: 30px;
+
+}
+
+.contact-info {
+  font-family: 'Roboto', sans-serif;
+  line-height: 0.5;
+
+}
+
+.name {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  line-height: 0.8;
 }
