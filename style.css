@@ -1,5 +1,5 @@
 body {
-  background-color: aliceblue;
+  background-color: white;
   overflow-x: hidden;
   box-sizing: border-box;
   margin: 0px;
@@ -24,13 +24,13 @@ h1 {
 h2 {
   font-family: 'Montserrat bold', sans-serif;
   font-size: 22px;
-  color: blue;
+  color: #0c7b93;
   text-align: center;
 
 }
 
 h2>span {
-  background-color: blue;
+  background-color: #3e99af;
   color: white;
   padding: 5px 10px;
 }
@@ -65,13 +65,13 @@ h5 {
 }
 
 header {
-  background-color: green;
+  background-color: #3e99af;
 
   height: 500px;
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("hero-image.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url("hero-image.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -132,10 +132,6 @@ header {
   margin-top: 48px;
 }
 
-/* .summary {
-  width: 75%;
-} */
-
 .decoration-wrapper {
   width: 36px;
   display: flex;
@@ -147,14 +143,14 @@ header {
 .line {
   width: 20px;
   height: 3px;
-  background: red;
+  background: #0c7b93;
 }
 
 .circle {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: red;
+  background: #0c7b93;
   margin-left: -3px;
 }
 
@@ -165,7 +161,7 @@ p {
 }
 
 .tech-section {
-  background-color: white;
+  background-color: #6dd5ed5c;
   padding: 20px 36px;
 
   margin-top: 48px;
@@ -219,7 +215,7 @@ a {
 
 .project-card-text>span {
   font-weight: bold;
-  color: blue;
+  color: #0c7b93;
 }
 
 .tags {
@@ -243,7 +239,7 @@ a {
 
 mark {
   padding: 5px 10px;
-  background-color: aqua;
+  background-color: #8dd6e6;
   margin-right: 10px;
 }
 
@@ -254,7 +250,7 @@ mark {
 .my-thoughts-section {
   padding: 20px 36px;
   margin-top: 48px;
-  background-color: white;
+  background-color: #6dd5ed5c;
 }
 
 .reflections-post {
@@ -272,7 +268,7 @@ mark {
 
 .post-date {
   font-family: 'Roboto';
-  color: blue;
+  color: #0c7b93;
   margin-block-end: 5px;
 }
 
@@ -283,13 +279,15 @@ mark {
   margin-block-start: 5px;
   margin-block-end: 2px;
   line-height: 1.5;
+
 }
 
 
 
 .more-thoughts-section {
   padding: 20px 36px;
-  background-color: white;
+  background-color: #6dd5ed5c;
+
 
 }
 
@@ -314,15 +312,16 @@ li {
 li>span {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
-  color: blue;
+  color: #0c7b93;
 }
 
 .for-more-section {
   padding: 28px 36px;
-  background-color: rgb(201, 123, 123);
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color:
+    #6dd5ed5c
 }
 
 .for-more-card {
