@@ -90,8 +90,6 @@ header {
 }
 
 .icons {
-
-
   /* position: absolute; */
   left: 53%;
   top: 13%;
@@ -115,12 +113,12 @@ header {
   display: flex;
 }
 
-.social-link {
-  border-width: 40px;
-  border-radius: 50%;
-  border: solid 3px white;
-  padding: 8px;
-}
+/* .social-link {
+    border-width: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+    padding: 8px;
+  } */
 
 /* .linkedinlink img {
   width: 15.4px;
@@ -144,13 +142,13 @@ header {
   padding: 8px;
 } */
 
-.bigicon {
+/* .bigicon {
 
   border-radius: 50%;
   border: 3px solidr red;
   justify-content: space-around;
   display: flex;
-}
+} */
 
 
 
@@ -330,7 +328,9 @@ mark {
   text-align: left;
   font-family: 'Roboto', sans-serif;
   color: black;
+  margin-block-start: 5px;
   margin-block-end: 2px;
+  line-height: 1.5;
 }
 
 
@@ -367,10 +367,32 @@ li>span {
 
 .for-more-section {
   padding: 20px 36px;
-
-  background-color: white;
+  background-color: rgb(201, 123, 123);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.bigicon {
-  color: blue;
+.for-more-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.big-icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.big-icon {
+  width: 20px;
+  height: 20px;
+  padding: 1px;
+
+}
+
+.social-link {
+
+  border-radius: 50%;
+  border: solid 2px white;
+  padding: 5px;
 }
