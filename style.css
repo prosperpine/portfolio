@@ -46,6 +46,7 @@ h4 {
   font-family: 'Roboto', sans-serif;
   font-size: 13px;
   color: white;
+  font-weight: lighter;
 }
 
 h5 {
@@ -113,45 +114,6 @@ header {
   display: flex;
 }
 
-/* .social-link {
-    border-width: 40px;
-    border-radius: 50%;
-    border: 2px solid white;
-    padding: 8px;
-  } */
-
-/* .linkedinlink img {
-  width: 15.4px;
-  height: 14.75px;
-}
-
-.gitlink img {
-  width: 17.15px;
-  height: 18.45px;
-}
-
-.stacklink img {
-  width: 19.01px;
-  height: 19.01px;
-}
-
-.social-links a {
-  border-width: 40px;
-  border-radius: 50%;
-  border: solid 3px white;
-  padding: 8px;
-} */
-
-/* .bigicon {
-
-  border-radius: 50%;
-  border: 3px solidr red;
-  justify-content: space-around;
-  display: flex;
-} */
-
-
-
 .profile-picture {
   position: absolute;
   top: 69%;
@@ -162,25 +124,24 @@ header {
   height: 162px;
 }
 
-/*.main-section {
-  padding-left: 36px;
-  padding-right: 36px;
-}*/
-
-/* .section {
-  padding: 20px 36px;
-  margin-top: 48px;
-} */
-
 .summary-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 20px 36px;
   margin-top: 48px;
 }
 
+/* .summary {
+  width: 75%;
+} */
+
 .decoration-wrapper {
-  width: 80px;
+  width: 36px;
   display: flex;
   align-items: center;
+  float: left;
+  margin-top: 26px;
 }
 
 .line {
@@ -200,7 +161,7 @@ header {
 p {
   font-family: 'Montserrat';
   font-size: 17px;
-
+  line-height: 28px;
 }
 
 .tech-section {
