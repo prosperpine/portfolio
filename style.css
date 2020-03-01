@@ -91,10 +91,9 @@ header {
 }
 
 .icons {
-  /* position: absolute; */
+
   left: 53%;
   top: 13%;
-  /* justify-content: flex-end; */
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -386,3 +385,33 @@ li>span {
 }
 
 /* MEDIA QUERIES Tablet */
+@media (min-width:667px) {
+
+  .hero-text {
+    right: 54%;
+  }
+
+  .profile-picture {
+    left: 69%;
+  }
+
+  .icons {
+    left: 70%;
+    width: 30%;
+    justify-content: unset;
+  }
+
+  .icon {
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+
+  }
+
+  .social-link {
+    margin-right: 1rem;
+  }
+
+
+
+}
