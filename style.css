@@ -114,6 +114,13 @@ header {
   display: flex;
 }
 
+.social-link {
+
+  border-radius: 50%;
+  border: solid 2px white;
+  padding: 5px;
+}
+
 .profile-picture {
   position: absolute;
   top: 69%;
@@ -128,8 +135,9 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px 36px;
-  margin-top: 48px;
+  padding: 30px 36px;
+  margin-top: 0px;
+  background-color: lightyellow;
 }
 
 .decoration-wrapper {
@@ -161,10 +169,10 @@ p {
 }
 
 .tech-section {
-  background-color: #6dd5ed5c;
-  padding: 20px 36px;
 
-  margin-top: 48px;
+  padding: 36px 36px;
+
+
 }
 
 .tech {
@@ -173,7 +181,8 @@ p {
 }
 
 .featured-projects-section {
-  padding: 20px 36px;
+  padding: 36px 36px;
+  background-color: lightyellow;
 
 }
 
@@ -239,18 +248,17 @@ a {
 
 mark {
   padding: 5px 10px;
-  background-color: #8dd6e6;
+  background-color: lightcyan;
   margin-right: 10px;
 }
 
 .other-projects-section {
   padding: 20px 36px;
+  background-color: lightyellow;
 }
 
 .my-thoughts-section {
-  padding: 20px 36px;
-  margin-top: 48px;
-  background-color: #6dd5ed5c;
+  padding: 36px 36px;
 }
 
 .reflections-post {
@@ -286,7 +294,7 @@ mark {
 
 .more-thoughts-section {
   padding: 20px 36px;
-  background-color: #6dd5ed5c;
+  background-color: lightyellow;
 
 
 }
@@ -321,7 +329,7 @@ li>span {
   flex-direction: column;
   justify-content: center;
   background-color:
-    #6dd5ed5c
+    lightyellow
 }
 
 .for-more-card {
@@ -333,20 +341,26 @@ li>span {
   display: flex;
   justify-content: space-evenly;
   padding-top: 26px;
+
 }
 
-.big-icon {
+.big-icon>span {
+  color: #3e99af;
+  font-size: 2rem;
+}
+
+/* .big-icon {
   width: 20px;
   height: 20px;
   padding: 1px;
 
-}
+} */
 
-.social-link {
+.big-social-link {
 
   border-radius: 50%;
-  border: solid 2px white;
-  padding: 5px;
+  border: solid 2px #3e99af;
+  padding: 8px;
 }
 
 .contact-me-section {
@@ -370,3 +384,5 @@ li>span {
   font-weight: bold;
   line-height: 0.8;
 }
+
+/* MEDIA QUERIES Tablet */
