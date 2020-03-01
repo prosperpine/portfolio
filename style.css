@@ -105,7 +105,7 @@ header {
 
 .icon {
   width: 14px;
-  height: 14px;
+  height: auto;
   padding: 1px;
   /* border-radius: 50%;
   border: 2px solid white;*/
@@ -185,6 +185,10 @@ p {
 
 }
 
+.extra-projects-article {
+  display: none;
+}
+
 .project-card {
   width: 100%;
   display: flex;
@@ -252,7 +256,7 @@ mark {
 }
 
 .other-projects-section {
-  padding: 20px 36px;
+  padding: 20px 36px 50px 36px;
   background-color: lightyellow;
 }
 
@@ -292,23 +296,26 @@ mark {
 
 
 .more-thoughts-section {
-  padding: 20px 36px;
+  padding: 20px 36px 50px 36px;
   background-color: lightyellow;
 
 
 }
 
 .skills-section {
-  padding: 20px 36px;
+  padding: 20px 90px;
 }
 
 .skills-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+
 }
 
 ul {
   list-style-type: none;
+  padding-inline-start: 0%;
 }
 
 li {
@@ -323,7 +330,7 @@ li>span {
 }
 
 .for-more-section {
-  padding: 28px 36px;
+  padding: 28px 36px 50px 36px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -347,13 +354,6 @@ li>span {
   color: #3e99af;
   font-size: 2rem;
 }
-
-/* .big-icon {
-  width: 20px;
-  height: 20px;
-  padding: 1px;
-
-} */
 
 .big-social-link {
 
@@ -415,7 +415,7 @@ li>span {
 
   .icon {
     width: 25px;
-    height: 25px;
+
     padding: 5px;
 
   }
@@ -429,6 +429,60 @@ li>span {
     padding-right: 150px;
   }
 
+  .featured-project-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
+  .project-card {
+    width: 46%;
+  }
 
+  .other-projects {
+    width: 100%;
+  }
+
+  .my-thoughts-posts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .reflections-post {
+    width: 46%;
+  }
+}
+
+/* MEDIA QUERIES Desktop */
+@media (min-width:1025px) {
+
+  .section {
+    padding-left: 280px;
+    padding-right: 280px;
+  }
+
+  .hero-text {
+    right: 60%;
+  }
+
+  .profile-picture {
+    width: 200px;
+    height: auto;
+    top: 63%;
+  }
+
+  .icon {
+    width: 32px;
+    padding: 5px;
+
+  }
+
+  .project-card {
+    width: 40%;
+  }
+
+  .other-projects {
+    width: 100%;
+  }
 }
