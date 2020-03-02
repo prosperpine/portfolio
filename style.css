@@ -362,6 +362,10 @@ li>span {
   padding: 8px;
 }
 
+.visually-hidden {
+  display: none;
+}
+
 .contact-me-section {
   padding: 28px 36px;
 }
