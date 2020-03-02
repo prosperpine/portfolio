@@ -3,8 +3,7 @@ body {
   overflow-x: hidden;
   box-sizing: border-box;
   margin: 0px;
-
-
+  width: 100%;
 }
 
 h1 {
@@ -341,12 +340,28 @@ li>span {
 .for-more-card {
   display: flex;
   flex-direction: column;
+
+}
+
+.icon-cards-box {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.big-icons-text {
+  font-size: 0.6rem;
+  font-weight: bold;
+  color: #0c7b93;
+  text-align: center;
+  line-height: 1.2;
 }
 
 .big-icons {
   display: flex;
   justify-content: space-evenly;
   padding-top: 26px;
+  flex-direction: row;
 
 }
 
@@ -488,5 +503,13 @@ li>span {
 
   .other-projects {
     width: 100%;
+  }
+
+  .for-more-section {
+    align-items: center;
+  }
+
+  .for-more-card {
+    width: 40%;
   }
 }
