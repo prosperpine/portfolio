@@ -270,6 +270,10 @@ mark {
   margin-top: 38px;
 }
 
+.extra-reflection-article {
+  display: none;
+}
+
 .reflections-image {
   width: 100%;
   height: auto;
@@ -302,12 +306,12 @@ mark {
 }
 
 .skills-section {
-  padding: 20px 90px;
+  padding: 20px 50px;
 }
 
 .skills-list {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   justify-content: space-between;
 
 }
@@ -462,15 +466,23 @@ li>span {
     width: 100%;
   }
 
+  .extra-reflection-article {
+    display: flex;
+  }
+
+  .featured-thoughts {
+    display: flex;
+    justify-content: space-around;
+
+  }
+
   .my-thoughts-posts {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-  }
-
-  .reflections-post {
     width: 46%;
   }
+
 }
 
 /* MEDIA QUERIES Desktop */
