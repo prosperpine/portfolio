@@ -13,7 +13,6 @@ h1 {
   font-weight: bold;
   margin-bottom: 0;
   margin-top: 0;
-
 }
 
 .h1div {
@@ -25,7 +24,6 @@ h2 {
   font-size: 1.4rem;
   color: #0c7b93;
   text-align: center;
-
 }
 
 h2>span {
@@ -57,15 +55,14 @@ h5 {
   color: black;
 }
 
-
-
 .bold {
   font-weight: 700;
 }
 
+/* TOP SECTION, HEADER */
+
 header {
   background-color: #3e99af;
-
   height: 500px;
 }
 
@@ -90,7 +87,6 @@ header {
 }
 
 .icons {
-
   left: 53%;
   top: 13%;
   display: flex;
@@ -98,22 +94,17 @@ header {
   align-items: flex-end;
   width: 37%;
   position: absolute;
-
 }
-
 
 .icon {
   width: 14px;
   height: auto;
   padding: 1px;
-  /* border-radius: 50%;
-  border: 2px solid white;*/
   justify-content: space-between;
   display: flex;
 }
 
 .social-link {
-
   border-radius: 50%;
   border: solid 2px white;
   padding: 5px;
@@ -129,6 +120,8 @@ header {
   height: 162px;
 }
 
+/* SUMMARY-SECTION */
+
 .summary-section {
   display: flex;
   justify-content: center;
@@ -138,6 +131,7 @@ header {
   background-color: lightyellow;
 }
 
+/* Decoration at start of text*/
 .decoration-wrapper {
   width: 36px;
   display: flex;
@@ -166,22 +160,21 @@ p {
   line-height: 28px;
 }
 
+/* TECH-SKILLS */
+
 .tech-section {
-
   padding: 36px 36px;
-
-
 }
 
 .tech {
   text-align: center;
-
 }
+
+/*  FEATURED PROJECTS DISPLAY */
 
 .featured-projects-section {
   padding: 36px 36px;
   background-color: lightyellow;
-
 }
 
 .extra-projects-article {
@@ -197,7 +190,6 @@ p {
 
 a {
   text-decoration: none;
-
 }
 
 .weather-project-img {
@@ -232,11 +224,16 @@ a {
 .tags {
   text-align: left;
   display: flex;
-
 }
 
 .tags p {
   font-size: 0.8rem;
+}
+
+mark {
+  padding: 5px 10px;
+  background-color: lightcyan;
+  margin-right: 10px;
 }
 
 .murdermystery-project-img {
@@ -248,16 +245,14 @@ a {
   position: relative;
 }
 
-mark {
-  padding: 5px 10px;
-  background-color: lightcyan;
-  margin-right: 10px;
-}
+/* OTHER PROJECTS */
 
 .other-projects-section {
   padding: 20px 36px 50px 36px;
   background-color: lightyellow;
 }
+
+/* REFLECTIONS SECTION */
 
 .my-thoughts-section {
   padding: 36px 36px;
@@ -277,7 +272,6 @@ mark {
 .reflections-image {
   width: 100%;
   height: auto;
-
 }
 
 .post-date {
@@ -293,17 +287,15 @@ mark {
   margin-top: 5px;
   margin-bottom: 2px;
   line-height: 1.5;
-
 }
 
-
-
+/* OTHER THOUGHTS */
 .more-thoughts-section {
   padding: 20px 36px 50px 36px;
   background-color: lightyellow;
-
-
 }
+
+/* SKILLS SECTION */
 
 .skills-section {
   padding: 20px 50px;
@@ -311,14 +303,13 @@ mark {
 
 .skills-list {
   display: flex;
-  flex-wrap: wrap-reverse;
+  flex-wrap: wrap;
   justify-content: space-between;
-
 }
 
 ul {
   list-style-type: none;
-
+  padding-left: 24px;
 }
 
 li {
@@ -332,6 +323,7 @@ li>span {
   color: #0c7b93;
 }
 
+/* MORE SECTION WITH ICONS */
 .for-more-section {
   padding: 28px 36px 50px 36px;
   display: flex;
@@ -344,7 +336,6 @@ li>span {
 .for-more-card {
   display: flex;
   flex-direction: column;
-
 }
 
 .icon-cards-box {
@@ -366,7 +357,6 @@ li>span {
   justify-content: space-evenly;
   padding-top: 26px;
   flex-direction: row;
-
 }
 
 .big-icon>span {
@@ -375,7 +365,6 @@ li>span {
 }
 
 .big-social-link {
-
   border-radius: 50%;
   border: solid 2px #3e99af;
   padding: 8px;
@@ -385,6 +374,7 @@ li>span {
   display: none;
 }
 
+/* CONTACT SECTION */
 .contact-me-section {
   padding: 28px 36px;
 }
@@ -392,13 +382,11 @@ li>span {
 .contact-card {
   text-align: center;
   margin-bottom: 30px;
-
 }
 
 .contact-info {
   font-family: 'Roboto', sans-serif;
   line-height: 0.5;
-
 }
 
 .name {
@@ -438,9 +426,7 @@ li>span {
 
   .icon {
     width: 25px;
-
     padding: 5px;
-
   }
 
   .social-link {
@@ -472,8 +458,7 @@ li>span {
 
   .featured-thoughts {
     display: flex;
-    justify-content: space-around;
-
+    justify-content: space-between;
   }
 
   .my-thoughts-posts {
@@ -506,7 +491,6 @@ li>span {
   .icon {
     width: 32px;
     padding: 5px;
-
   }
 
   .project-card {
