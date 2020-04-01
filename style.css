@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 2.8rem;
   color: white;
   font-weight: bold;
@@ -20,34 +20,34 @@ h1 {
 }
 
 h2 {
-  font-family: 'Montserrat bold', sans-serif;
+  font-family: "Montserrat bold", sans-serif;
   font-size: 1.4rem;
   color: #0c7b93;
   text-align: center;
 }
 
-h2>span {
+h2 > span {
   background-color: #3e99af;
   color: white;
   padding: 5px 10px;
 }
 
 h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.6rem;
   color: white;
   font-weight: bold;
 }
 
 h4 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1rem;
   color: white;
   font-weight: lighter;
 }
 
 h5 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 1.4rem;
   margin-top: 5px;
@@ -67,7 +67,8 @@ header {
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url("hero-image.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)),
+    url("hero-image.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -155,7 +156,7 @@ header {
 }
 
 p {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 1.2rem;
   line-height: 28px;
 }
@@ -192,8 +193,9 @@ a {
   text-decoration: none;
 }
 
-.weather-project-img {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("weatherapp.png");
+.happy-thoughts-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("Happythoughts.png");
   padding: 3rem;
   background-position: center;
   background-repeat: no-repeat;
@@ -203,7 +205,7 @@ a {
 
 .project-img-text {
   color: white;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-weight: bold;
   font-size: 1.2rem;
   text-align: center;
@@ -211,12 +213,12 @@ a {
 
 .project-card-text {
   text-align: left;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: black;
   margin-bottom: 2px;
 }
 
-.project-card-text>span {
+.project-card-text > span {
   font-weight: bold;
   color: #0c7b93;
 }
@@ -236,8 +238,9 @@ mark {
   margin-right: 10px;
 }
 
-.murdermystery-project-img {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("murdermystery.png");
+.movie-project-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("movieproject.png");
   padding: 3rem;
   background-position: center;
   background-repeat: no-repeat;
@@ -275,14 +278,14 @@ mark {
 }
 
 .post-date {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   color: #0c7b93;
   margin-bottom: 2px;
 }
 
 .reflections-text {
   text-align: left;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: black;
   margin-top: 5px;
   margin-bottom: 2px;
@@ -313,12 +316,12 @@ ul {
 }
 
 li {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.2rem;
 }
 
-li>span {
-  font-family: 'Roboto', sans-serif;
+li > span {
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
   color: #0c7b93;
 }
@@ -329,8 +332,7 @@ li>span {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color:
-    lightyellow
+  background-color: lightyellow;
 }
 
 .for-more-card {
@@ -342,7 +344,6 @@ li>span {
   display: flex;
   justify-content: space-evenly;
 }
-
 
 .big-icons-text {
   font-size: 0.6rem;
@@ -359,7 +360,7 @@ li>span {
   flex-direction: row;
 }
 
-.big-icon>span {
+.big-icon > span {
   color: #3e99af;
   font-size: 2rem;
 }
@@ -385,19 +386,18 @@ li>span {
 }
 
 .contact-info {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 0.5;
 }
 
 .name {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
   line-height: 0.8;
 }
 
 /* MEDIA QUERIES Tablet */
-@media (min-width:667px) {
-
+@media (min-width: 667px) {
   h1 {
     font-size: 4rem;
   }
@@ -438,6 +438,12 @@ li>span {
     padding-right: 150px;
   }
 
+  /** PUT TO DISPLAY NONE RIGHT NOW, ADD CLASS FEATURED-PROJECTS-CARDS IF ADDITIONAL PROJECTS SHOULD BE FEAUTURED **/
+
+  .extra-projects-article {
+    display: none;
+  }
+
   .featured-project-cards {
     display: flex;
     flex-direction: row;
@@ -453,7 +459,7 @@ li>span {
   }
 
   .extra-reflection-article {
-    display: flex;
+    display: none;
   }
 
   .featured-thoughts {
@@ -467,12 +473,10 @@ li>span {
     justify-content: space-between;
     width: 46%;
   }
-
 }
 
 /* MEDIA QUERIES Desktop */
-@media (min-width:1025px) {
-
+@media (min-width: 1025px) {
   .section {
     padding-left: 280px;
     padding-right: 280px;
