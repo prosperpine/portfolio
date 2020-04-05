@@ -34,7 +34,7 @@ h2 > span {
 
 h3 {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   color: white;
   font-weight: bold;
 }
@@ -84,7 +84,7 @@ header {
   flex-direction: column;
   line-height: 0.01;
   position: absolute;
-  top: 25%;
+  top: 20%;
   right: 26%;
 }
 
@@ -404,7 +404,7 @@ li > span {
   }
 
   h3 {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
 
   h4 {
