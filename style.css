@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 2.8rem;
   color: white;
   font-weight: bold;
@@ -20,7 +20,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Montserrat bold", sans-serif;
+  font-family: 'Montserrat bold', sans-serif;
   font-size: 1.4rem;
   color: #0c7b93;
   text-align: center;
@@ -33,21 +33,21 @@ h2 > span {
 }
 
 h3 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.4rem;
   color: white;
   font-weight: bold;
 }
 
 h4 {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1rem;
   color: white;
   font-weight: lighter;
 }
 
 h5 {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: bold;
   font-size: 1.4rem;
   margin-top: 5px;
@@ -68,7 +68,7 @@ header {
 
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)),
-    url("hero-image.jpg");
+    url('hero-image.jpg');
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -157,7 +157,7 @@ header {
 }
 
 p {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-size: 1.2rem;
   line-height: 28px;
 }
@@ -196,7 +196,7 @@ a {
 
 .happy-thoughts-img {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("Happythoughts.png");
+    url('Happythoughts.png');
   padding: 3rem;
   background-position: center;
   background-repeat: no-repeat;
@@ -206,7 +206,7 @@ a {
 
 .project-img-text {
   color: white;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-weight: bold;
   font-size: 1.2rem;
   text-align: center;
@@ -214,7 +214,7 @@ a {
 
 .project-card-text {
   text-align: left;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: black;
   margin-bottom: 2px;
 }
@@ -227,10 +227,12 @@ a {
 .tags {
   text-align: left;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .tags p {
   font-size: 0.8rem;
+  line-height: 1em;
 }
 
 mark {
@@ -239,9 +241,9 @@ mark {
   margin-right: 10px;
 }
 
-.movie-project-img {
+.todo-project-img {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("movieproject.png");
+    url('TO-DO.png');
   padding: 3rem;
   background-position: center;
   background-repeat: no-repeat;
@@ -279,14 +281,14 @@ mark {
 }
 
 .post-date {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   color: #0c7b93;
   margin-bottom: 2px;
 }
 
 .reflections-text {
   text-align: left;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: black;
   margin-top: 5px;
   margin-bottom: 2px;
@@ -317,12 +319,12 @@ ul {
 }
 
 li {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.2rem;
 }
 
 li > span {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: bold;
   color: #0c7b93;
 }
@@ -387,12 +389,12 @@ li > span {
 }
 
 .contact-info {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 0.5;
 }
 
 .name {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: bold;
   line-height: 0.8;
 }
