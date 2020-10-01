@@ -179,6 +179,11 @@ p {
   background-color: lightyellow;
 }
 
+.featured-project-cards{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
 .extra-projects-article {
   display: none;
 }
@@ -251,6 +256,15 @@ mark {
   position: relative;
 }
 
+.covid-project-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('covid.png');
+  padding: 3rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
 /* OTHER PROJECTS */
 
 .other-projects-section {
