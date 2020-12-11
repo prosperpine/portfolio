@@ -22,12 +22,12 @@ h1 {
 h2 {
   font-family: 'Montserrat bold', sans-serif;
   font-size: 1.4rem;
-  color: #0c7b93;
+  color: #231304;
   text-align: center;
 }
 
 h2 > span {
-  background-color: #3e99af;
+  background-color: #231304;
   color: white;
   padding: 5px 10px;
 }
@@ -68,7 +68,7 @@ header {
 
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)),
-    url('hero-image.jpg');
+    url('background.jpg');
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -116,7 +116,7 @@ header {
   position: absolute;
   top: 69%;
   left: 50%;
-  border: 1.5px solid #fff;
+  border: 4px solid #fff;
   border-radius: 50%;
   width: 162px;
   height: 162px;
@@ -130,7 +130,7 @@ header {
   align-items: center;
   padding: 30px 36px;
   margin-top: 0px;
-  background-color: lightyellow;
+  background-color: rgba(250, 246, 234, 0.897);
 }
 
 /* Decoration at start of text*/
@@ -145,14 +145,14 @@ header {
 .line {
   width: 20px;
   height: 3px;
-  background: #0c7b93;
+  background: #231304;
 }
 
 .circle {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: #0c7b93;
+  background: #231304;
   margin-left: -3px;
 }
 
@@ -176,7 +176,7 @@ p {
 
 .featured-projects-section {
   padding: 36px 36px;
-  background-color: lightyellow;
+  background-color: rgba(250, 246, 234, 0.897);
 }
 
 .featured-project-cards{
@@ -226,24 +226,27 @@ a {
 
 .project-card-text > span {
   font-weight: bold;
-  color: #0c7b93;
+  color: #231304;
 }
 
 .tags {
   text-align: left;
   display: flex;
   flex-wrap: wrap;
+  
 }
 
 .tags p {
   font-size: 0.8rem;
   line-height: 1em;
+  
 }
 
 mark {
   padding: 5px 10px;
-  background-color: lightcyan;
+  background-color: white;
   margin-right: 10px;
+  
 }
 
 .todo-project-img {
@@ -269,7 +272,7 @@ mark {
 
 .other-projects-section {
   padding: 20px 36px 50px 36px;
-  background-color: lightyellow;
+  background-color: rgba(250, 246, 234, 0.897);
 }
 
 /* REFLECTIONS SECTION */
@@ -296,7 +299,7 @@ mark {
 
 .post-date {
   font-family: 'Roboto';
-  color: #0c7b93;
+  color: #231304;
   margin-bottom: 2px;
 }
 
@@ -312,7 +315,7 @@ mark {
 /* OTHER THOUGHTS */
 .more-thoughts-section {
   padding: 20px 36px 50px 36px;
-  background-color: lightyellow;
+  background-color: rgba(250, 246, 234, 0.897);
 }
 
 /* SKILLS SECTION */
@@ -340,7 +343,7 @@ li {
 li > span {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
-  color: #0c7b93;
+  color: #231304;
 }
 
 /* MORE SECTION WITH ICONS */
@@ -349,7 +352,7 @@ li > span {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: lightyellow;
+  background-color: rgba(250, 246, 234, 0.897);
 }
 
 .for-more-card {
@@ -365,7 +368,7 @@ li > span {
 .big-icons-text {
   font-size: 0.6rem;
   font-weight: bold;
-  color: #0c7b93;
+  color: #231304;
   text-align: center;
   line-height: 1.2;
 }
@@ -378,13 +381,13 @@ li > span {
 }
 
 .big-icon > span {
-  color: #3e99af;
+  color: #231304;
   font-size: 2rem;
 }
 
 .big-social-link {
   border-radius: 50%;
-  border: solid 2px #3e99af;
+  border: solid 2px #231304;
   padding: 8px;
 }
 
